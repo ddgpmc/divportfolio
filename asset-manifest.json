@@ -1,18 +1,37 @@
 {
   "files": {
-    "main.css": "/divportfolio/static/css/main.1a42fa0f.css",
-    "main.js": "/divportfolio/static/js/main.910f6223.js",
+    "main.css": "/divportfolio/static/css/main.a81bb8c0.css",
+    "main.js": "/divportfolio/static/js/main.da550b2d.js",
+    "static/media/AWU.png": "/divportfolio/static/media/AWU.aef2117adc35a10a1c6a.png",
+    "static/media/esagip.png": "/divportfolio/static/media/esagip.e1f277406d54cf1cc7ef.png",
     "static/media/picprof.png": "/divportfolio/static/media/picprof.aac0eba06e881dd754af.png",
-    "static/media/profilepic.png": "/divportfolio/static/media/profilepic.3d7b99556f9b980cc4b9.png",
+    "static/media/SQDT.png": "/divportfolio/static/media/SQDT.4c5ff44035086c62c0da.png",
+    "static/media/tg.png": "/divportfolio/static/media/tg.4891e930b028e934b42b.png",
+    "static/media/esagipapp.png": "/divportfolio/static/media/esagipapp.5e918c88e6d064c61275.png",
+    "static/media/bookpass.png": "/divportfolio/static/media/bookpass.b2d7935e4078fc6b2c12.png",
+    "static/media/mappiya.png": "/divportfolio/static/media/mappiya.c2b87f43baa37d7e34a8.png",
+    "static/media/beneath.png": "/divportfolio/static/media/beneath.86cf26fc4822c6d84618.png",
+    "static/media/homs1.png": "/divportfolio/static/media/homs1.41bb7139f893c122f7b4.png",
     "static/media/AUJAS.jpg": "/divportfolio/static/media/AUJAS.6d7e0efe18b8a1e64122.jpg",
+    "static/media/ga2a.jpg": "/divportfolio/static/media/ga2a.470583bc20092c4b5420.jpg",
+    "static/media/ga1a.jpg": "/divportfolio/static/media/ga1a.e220bd50157d08d27bf9.jpg",
+    "static/media/logo2.jpg": "/divportfolio/static/media/logo2.2bc859c44d9fa589dcb6.jpg",
+    "static/media/homepic.jpg": "/divportfolio/static/media/homepic.bfe6fa7fb56f33103795.jpg",
+    "static/media/net.png": "/divportfolio/static/media/net.bb89b2e16ce4e8bf36a3.png",
     "static/media/tup.jpg": "/divportfolio/static/media/tup.a9c5999b26874cc12eb8.jpg",
+    "static/media/logo1.jpg": "/divportfolio/static/media/logo1.ca7af85d793171c1d218.jpg",
+    "static/media/SAPB1.jpg": "/divportfolio/static/media/SAPB1.5a34cab19ed50e51a57b.jpg",
+    "static/media/c.png": "/divportfolio/static/media/c.9b0cb80d693ebe7ac7ff.png",
     "static/media/bgherobg.jpg": "/divportfolio/static/media/bgherobg.720a77b2f737e6d6e084.jpg",
+    "static/media/next.png": "/divportfolio/static/media/next.9e5559d52d8878d113f8.png",
+    "static/media/ts.png": "/divportfolio/static/media/ts.0c9479e75db2532b8cc2.png",
+    "static/media/div.png": "/divportfolio/static/media/div.4f3a795c703059500ca8.png",
     "index.html": "/divportfolio/index.html",
-    "main.1a42fa0f.css.map": "/divportfolio/static/css/main.1a42fa0f.css.map",
-    "main.910f6223.js.map": "/divportfolio/static/js/main.910f6223.js.map"
+    "main.a81bb8c0.css.map": "/divportfolio/static/css/main.a81bb8c0.css.map",
+    "main.da550b2d.js.map": "/divportfolio/static/js/main.da550b2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a42fa0f.css",
-    "static/js/main.910f6223.js"
+    "static/css/main.a81bb8c0.css",
+    "static/js/main.da550b2d.js"
   ]
 }
