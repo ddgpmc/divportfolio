@@ -1,0 +1,90 @@
+/* Education.css */
+
+/* Background image and blur effect for the container */
+.education-container {
+  background-image: url('../assets/bgherobg.jpg'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  padding: 20px; /* Add padding if needed */
+  background-color: rgba(255, 255, 255, 0.4); /* Optional: Add a semi-transparent overlay to darken the background slightly */
+}
+
+/* Center the title and add space below it */
+h2 {
+  margin-top: 80px;
+  color: rgb(255, 85, 0); /* Ensure the title stands out */
+  text-align: center; /* Center the title */
+  margin-bottom: 40px; /* Space below the title */
+}
+
+/* Card Styles */
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px; /* Fixed width */
+  height: 500px; /* Fixed height */
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+  box-shadow: 0 4px 8px rgba(87, 87, 87, 0.4);
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(50px); /* Apply blur effect to the background behind the card */
+  /* Optionally: add padding to prevent content from touching edges */
+  padding: 16px; 
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card-front {
+  background: rgb(73, 72, 72); 
+}
+
+.card-back {
+  background: rgb(34, 25, 25); /* Slightly more transparent white */
+  transform: rotateY(180deg);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  object-fit: cover; /* Ensure image covers the card area */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 8px 0;
+  text-align: center;
+  color: rgb(255, 255, 255); /* White text color for better contrast */
+}
+
+.card-description, .card-description2 {
+  text-align: center;
+  margin: 4px 0;
+  color: rgb(255, 255, 255); /* White text color for better contrast */
+}
