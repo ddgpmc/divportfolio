@@ -55,7 +55,7 @@ const Home = () => {
         {/* Hero Content */}
         <div className="flex flex-col items-center justify-center h-full text-center relative z-10">
           {/* Small Picture Above Typing Animation */}
-          <img src="/assets/homepic.jpg" alt="Profile" className="w-32 h-32 rounded-full mb-4" />
+          <img src="./assets/homepic.jpg" alt="Profile" className="w-32 h-32 rounded-full mb-4" />
 
           {/* Typing Logo */}
           <div style={typingStyles} className="mb-4">
