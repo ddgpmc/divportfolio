@@ -4,6 +4,10 @@ import backgroundImage from '../assets/bgherobg.jpg'; // Adjust path as necessar
 import profileImage from '../assets/picprof.png'; // Adjust path as necessary
 import Education from './Education';
 import Experiences from './Experiences';
+import next from '../assets/next.png'; 
+import ts from '../assets/ts.png'; 
+import net from '../assets/net.png'; 
+import csharp from '../assets/c.png'; 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -99,20 +103,20 @@ const About = () => {
             </div>
             {/* Placeholder icons for Next.js and TypeScript */}
             <div className="flex items-center space-x-2">
-              <img src="/assets/next.png" alt="Next.js" className="w-8 h-8" />
+              <img src={next} alt="Next.js" className="w-8 h-8" />
               <span className="text-xl">Next.js</span>
             </div>
             <div className="flex items-center space-x-2">
-              <img src="/assets/ts.png" alt="TypeScript" className="w-8 h-8" />
+              <img src={ts} alt="TypeScript" className="w-8 h-8" />
               <span className="text-xl">TypeScript</span>
             </div>
             {/* Placeholder icons for C# and .NET */}
             <div className="flex items-center space-x-2">
-              <img src="/assets/c.png" alt="C#" className="w-8 h-8" />
+              <img src={csharp} alt="C#" className="w-8 h-8" />
               <span className="text-xl">C#</span>
             </div>
             <div className="flex items-center space-x-2">
-              <img src="/assets/net.png" alt=".NET" className="w-12 h-12" />
+              <img src={net} alt=".NET" className="w-12 h-12" />
               <span className="text-xl">.NET</span>
             </div>
           </div>

@@ -1,5 +1,21 @@
 import React, { useState } from 'react';
 
+// Import all images
+import awuImage from '../assets/AWU.png';
+import homsImage from '../assets/homs1.png';
+import sqdtImage from '../assets/SQDT.png';
+import esagipImage from '../assets/esagip.png';
+import beneathImage from '../assets/beneath.png';
+import mappiyaImage from '../assets/mappiya.png';
+import bookpassImage from '../assets/bookpass.png';
+import esagipAppImage from '../assets/esagipapp.png';
+import telegramImage from '../assets/tg.png';
+import ga1aImage from '../assets/ga1a.jpg';
+import ga2aImage from '../assets/ga2a.jpg';
+import logo1Image from '../assets/logo1.jpg';
+import logo2Image from '../assets/logo2.jpg';
+import sapb1Image from '../assets/SAPB1.jpg';
+
 const categories = [
   'All',
   'Frontend Development',
@@ -19,89 +35,89 @@ const projects = [
   {
     title: 'AWU Foundation Website',
     description: 'AWU Foundation Website landing page',
-    image: '/assets/awu.png',
+    image: awuImage,
     category: 'Frontend Development',
   },
   {
     title: 'HOMS Website',
     description: 'HOMS Website landing page',
-    image: '/assets/homs1.png',
+    image: homsImage,
     category: 'Frontend Development',
   },
   {
     title: 'Square D Tech. & Devt Website',
     description: 'Square D Tech. & Devt Website landing page',
-    image: '/assets/sqdt.png',
+    image: sqdtImage,
     category: 'Frontend Development',
   },
   {
     title: 'E-SAGIP Application',
     description: 'The ESAGIP app is an emergency response application tailored for barangay-level deployment.',
-    image: '/assets/esagip.png',
+    image: esagipImage,
     category: 'Full Stack Development',
   },
   {
     title: 'Minting Website',
     description: 'Designed a minting website based on my idea',
-    image: '/assets/beneath.png',
+    image: beneathImage,
     category: 'UI/UX Development',
   },
   {
     title: 'MAPPIYA Mobile App',
     description: 'Designed an Application for a food delivery company',
-    image: '/assets/mappiya.png',
+    image: mappiyaImage,
     category: 'UI/UX Development',
   },
   {
     title: 'BOOKPASS Mobile App',
     description: 'Redesigning BookPass booking application',
-    image: '/assets/bookpass.png',
+    image: bookpassImage,
     category: 'UI/UX Development',
   },
   {
     title: 'E-SAGIP Mobile App',
     description: 'Designed and Develop E-SAGIP Application',
-    image: '/assets/esagipapp.png',
+    image: esagipAppImage,
     category: 'UI/UX Development',
   },
   {
     title: 'Telegram Mobile App Redesign',
-    description: 'Redesigned Telegram Mobile Application for a more user-friendly',
-    image: '/assets/tg.png',
+    description: 'Redesigned Telegram Mobile Application for a more user-friendly experience',
+    image: telegramImage,
     category: 'UI/UX Development',
   },
   {
     title: 'Social Media Post One',
     description: 'Designed for magazine entertainment',
-    image: '/assets/ga1a.jpg',
+    image: ga1aImage,
     category: 'Graphic Design',
     subCategory: 'Social Media Posts',
   },
   {
     title: 'Social Media Post Two',
     description: 'Designed for magazine entertainment',
-    image: '/assets/ga2a.jpg',
+    image: ga2aImage,
     category: 'Graphic Design',
     subCategory: 'Social Media Posts',
   },
   {
     title: 'Logo 1',
     description: 'Logo design for Love, Calli and Digipath IT Solutions',
-    image: '/assets/logo2.jpg',
+    image: logo1Image,
     category: 'Graphic Design',
     subCategory: 'Logos',
   },
   {
     title: 'Logo 2',
-    description: 'Logo design Quick Needs and Buds & Batter',
-    image: '/assets/logo1.jpg',
+    description: 'Logo design for Quick Needs and Buds & Batter',
+    image: logo2Image,
     category: 'Graphic Design',
     subCategory: 'Logos',
   },
   {
     title: 'SAP Project One',
-    description: 'Design, develop, and maintain libraries or APIs (Application Programming Interfaces) that provide access to platform-specific features, services, or functionality. Handles SAP Business One customization upon request of the clients. Languages: C# .NET, JavaScript.',
-    image: '/assets/sapb1.jpg',
+    description: 'Design, develop, and maintain libraries or APIs that provide access to platform-specific features, services, or functionality. Handles SAP Business One customization upon request of the clients. Languages: C# .NET, JavaScript.',
+    image: sapb1Image,
     category: 'SAP Related',
   },
 ];
