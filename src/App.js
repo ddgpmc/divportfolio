@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use HashRouter
 import Navbar from './components/Navbar';
-import Footer from './components/Footer'; 
+import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <Router basename="/divportfolio"> {/* Set basename to /divportfolio */}
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
