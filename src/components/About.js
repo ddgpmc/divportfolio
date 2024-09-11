@@ -69,62 +69,62 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div id="techstack" className="w-full bg-gray-200 py-10 px-40">
-        <div className="container mx-auto text-center mb-20 ">
-          <h2 className="text-3xl text-orange-500 font-bold mb-4">My Tech Stack</h2>
-          <p className="text-lg mb-4">
-            I am proficient in a variety of technologies. Here’s a list of some of the tools and languages I use:
-          </p>
-          <div className="flex flex-wrap justify-center gap-8">
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faHtml5} className="text-4xl text-orange-600" />
-              <span className="text-xl">HTML5</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faCss3Alt} className="text-4xl text-blue-600" />
-              <span className="text-xl">CSS3</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faPhp} className="text-4xl text-purple-600" />
-              <span className="text-xl">PHP</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faLaravel} className="text-4xl text-red-600" />
-              <span className="text-xl">Laravel</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faReact} className="text-4xl text-blue-500" />
-              <span className="text-xl">ReactJS</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faJs} className="text-4xl text-yellow-500" />
-              <span className="text-xl">JavaScript</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faNodeJs} className="text-4xl text-green-500" />
-              <span className="text-xl">NodeJS</span>
-            </div>
-            {/* Placeholder icons for Next.js and TypeScript */}
-            <div className="flex items-center space-x-2">
-              <img src={next} alt="Next.js" className="w-8 h-8" />
-              <span className="text-xl">Next.js</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <img src={ts} alt="TypeScript" className="w-8 h-8" />
-              <span className="text-xl">TypeScript</span>
-            </div>
-            {/* Placeholder icons for C# and .NET */}
-            <div className="flex items-center space-x-2">
-              <img src={csharp} alt="C#" className="w-8 h-8" />
-              <span className="text-xl">C#</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <img src={net} alt=".NET" className="w-12 h-12" />
-              <span className="text-xl">.NET</span>
-            </div>
-          </div>
-        </div>
+      <div id="techstack" className="w-full bg-gray-200 py-10 px-4 sm:px-8 md:px-20 lg:px-40">
+  <div className="container mx-auto text-center mb-10">
+    <h2 className="text-3xl text-orange-500 font-bold mb-4">My Tech Stack</h2>
+    <p className="text-base md:text-lg mb-4">
+      I am proficient in a variety of technologies. Here’s a list of some of the tools and languages I use:
+    </p>
+    <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faHtml5} className="text-3xl md:text-4xl text-orange-600" />
+        <span className="text-lg md:text-xl">HTML5</span>
       </div>
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faCss3Alt} className="text-3xl md:text-4xl text-blue-600" />
+        <span className="text-lg md:text-xl">CSS3</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faPhp} className="text-3xl md:text-4xl text-purple-600" />
+        <span className="text-lg md:text-xl">PHP</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faLaravel} className="text-3xl md:text-4xl text-red-600" />
+        <span className="text-lg md:text-xl">Laravel</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faReact} className="text-3xl md:text-4xl text-blue-500" />
+        <span className="text-lg md:text-xl">ReactJS</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faJs} className="text-3xl md:text-4xl text-yellow-500" />
+        <span className="text-lg md:text-xl">JavaScript</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <FontAwesomeIcon icon={faNodeJs} className="text-3xl md:text-4xl text-green-500" />
+        <span className="text-lg md:text-xl">NodeJS</span>
+      </div>
+      {/* Placeholder icons for Next.js and TypeScript */}
+      <div className="flex items-center space-x-2">
+        <img src={next} alt="Next.js" className="w-6 md:w-8 h-6 md:h-8" />
+        <span className="text-lg md:text-xl">Next.js</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <img src={ts} alt="TypeScript" className="w-6 md:w-8 h-6 md:h-8" />
+        <span className="text-lg md:text-xl">TypeScript</span>
+      </div>
+      {/* Placeholder icons for C# and .NET */}
+      <div className="flex items-center space-x-2">
+        <img src={csharp} alt="C#" className="w-6 md:w-8 h-6 md:h-8" />
+        <span className="text-lg md:text-xl">C#</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <img src={net} alt=".NET" className="w-8 md:w-12 h-8 md:h-12" />
+        <span className="text-lg md:text-xl">.NET</span>
+      </div>
+    </div>
+  </div>
+</div>
       {/* Education and Experiences Sections */}
       <div id="education" className="w-full bg-gray-100">
         <Education />
