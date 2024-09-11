@@ -9,7 +9,7 @@ import next from '../assets/next.png';
 import ts from '../assets/ts.png'; 
 import net from '../assets/net.png'; 
 import csharp from '../assets/c.png'; 
-
+import pdfFile from '../assets/DIV_CV.pdf';
 import Education from './Education';
 import Experiences from './Experiences';
 
@@ -77,7 +77,7 @@ const Home = () => {
             {/* Download CV Button */}
             <div className="mt-5">
               <a
-                href="/assets/Divine_CV.pdf"  // Replace with the path to your CV file
+                href={pdfFile} // Replace with the path to your CV file
                 download
                 className="inline-block px-6 py-3 text-white bg-orange-500 hover:bg-orange-600 rounded-md font-semibold transition"
               >
