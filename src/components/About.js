@@ -43,6 +43,9 @@ const About = () => {
             <p className="text-lg mr-10">
               In my free time, I enjoy designing and exploring new creative techniques. I believe in continuous learning and staying updated with the latest trends in website and application development.
             </p>
+            <p className="text-xl mr-10">
+              In my free time, I enjoy designing and exploring new creative techniques. I believe in continuous learning and staying updated with the latest trends in website and application development.
+            </p>
             {/* Social Media Section */}
             <div className="flex justify-center md:justify-start space-x-6 mt-8">
               <a href="mailto:your-email@example.com" aria-label="Email">
