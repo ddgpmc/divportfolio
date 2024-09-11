@@ -3,9 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faHtml5, faCss3Alt, faPhp, faLaravel, faJs, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons';
-// Add placeholder icons for Next.js and TypeScript
-import { faNext, faTypescript, faCsharp, faDotnet } from '@fortawesome/free-brands-svg-icons'; // Assuming you have these icons
-
+import backgroundImage from '../assets/bgherobg.jpg';
+import profileImage from '../assets/picprof.png'; 
+import next from '../assets/next.png'; 
+import ts from '../assets/ts.png'; 
+import net from '../assets/net.png'; 
+import csharp from '../assets/c.png'; 
+import pdfFile from '../assets/DIV_CV.pdf';
 import Education from './Education';
 import Experiences from './Experiences';
 
@@ -51,11 +55,11 @@ const Home = () => {
       <StyleSheet />
 
       {/* Hero Section with Background Image */}
-      <div className="relative flex flex-col items-center overflow-hidden h-screen bg-cover bg-center" style={{ backgroundImage: 'url("/assets/bgherobg.jpg")' }}>
+      <div className="relative flex flex-col items-center overflow-hidden h-screen bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
         {/* Hero Content */}
         <div className="flex flex-col items-center justify-center h-full text-center relative z-10">
           {/* Small Picture Above Typing Animation */}
-          <img src="/assets/homepic.jpg" alt="Profile" className="w-32 h-32 rounded-full mb-4" />
+          <img src={profileImage} alt="Profile" className="w-32 h-32 rounded-full mb-4" />
 
           {/* Typing Logo */}
           <div style={typingStyles} className="mb-4">
@@ -73,7 +77,7 @@ const Home = () => {
             {/* Download CV Button */}
             <div className="mt-5">
               <a
-                href="/assets/Divine_CV.pdf"  // Replace with the path to your CV file
+                href={pdfFile} // Replace with the path to your CV file
                 download
                 className="inline-block px-6 py-3 text-white bg-orange-500 hover:bg-orange-600 rounded-md font-semibold transition"
               >
@@ -163,20 +167,20 @@ const Home = () => {
             </div>
             {/* Placeholder icons for Next.js and TypeScript */}
             <div className="flex items-center space-x-2">
-              <img src="/assets/next.png" alt="Next.js" className="w-8 h-8" />
+              <img src={next} alt="Next.js" className="w-8 h-8" />
               <span className="text-xl">Next.js</span>
             </div>
             <div className="flex items-center space-x-2">
-              <img src="/assets/ts.png" alt="TypeScript" className="w-8 h-8" />
+              <img src={ts} alt="TypeScript" className="w-8 h-8" />
               <span className="text-xl">TypeScript</span>
             </div>
             {/* Placeholder icons for C# and .NET */}
             <div className="flex items-center space-x-2">
-              <img src="/assets/c.png" alt="C#" className="w-8 h-8" />
+              <img src={csharp} alt="C#" className="w-8 h-8" />
               <span className="text-xl">C#</span>
             </div>
             <div className="flex items-center space-x-2">
-              <img src="/assets/net.png" alt=".NET" className="w-12 h-12" />
+              <img src={net} alt=".NET" className="w-12 h-12" />
               <span className="text-xl">.NET</span>
             </div>
           </div>

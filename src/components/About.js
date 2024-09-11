@@ -4,6 +4,10 @@ import backgroundImage from '../assets/bgherobg.jpg'; // Adjust path as necessar
 import profileImage from '../assets/picprof.png'; // Adjust path as necessary
 import Education from './Education';
 import Experiences from './Experiences';
+import next from '../assets/next.png'; 
+import ts from '../assets/ts.png'; 
+import net from '../assets/net.png'; 
+import csharp from '../assets/c.png'; 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -37,6 +41,9 @@ const About = () => {
               Hi, I’m Divine, a passionate Developer with a keen interest in website and application development. With over 3 years of experience in the IT industry, I specialize in design and front-end development. My goal is to leverage my skills and knowledge to create innovative solutions and empower others to develop their own projects. I am committed to sharing my expertise and teaching others to excel in the field of development, whenever the opportunity arises.
             </p>
             <p className="text-lg mr-10">
+              In my free time, I enjoy designing and exploring new creative techniques. I believe in continuous learning and staying updated with the latest trends in website and application development.
+            </p>
+            <p className="text-xl mr-10">
               In my free time, I enjoy designing and exploring new creative techniques. I believe in continuous learning and staying updated with the latest trends in website and application development.
             </p>
             {/* Social Media Section */}
@@ -99,20 +106,20 @@ const About = () => {
             </div>
             {/* Placeholder icons for Next.js and TypeScript */}
             <div className="flex items-center space-x-2">
-              <img src="/assets/next.png" alt="Next.js" className="w-8 h-8" />
+              <img src={next} alt="Next.js" className="w-8 h-8" />
               <span className="text-xl">Next.js</span>
             </div>
             <div className="flex items-center space-x-2">
-              <img src="/assets/ts.png" alt="TypeScript" className="w-8 h-8" />
+              <img src={ts} alt="TypeScript" className="w-8 h-8" />
               <span className="text-xl">TypeScript</span>
             </div>
             {/* Placeholder icons for C# and .NET */}
             <div className="flex items-center space-x-2">
-              <img src="/assets/c.png" alt="C#" className="w-8 h-8" />
+              <img src={csharp} alt="C#" className="w-8 h-8" />
               <span className="text-xl">C#</span>
             </div>
             <div className="flex items-center space-x-2">
-              <img src="/assets/net.png" alt=".NET" className="w-12 h-12" />
+              <img src={net} alt=".NET" className="w-12 h-12" />
               <span className="text-xl">.NET</span>
             </div>
           </div>
