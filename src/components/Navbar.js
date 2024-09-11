@@ -22,7 +22,9 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-        scrolled ? 'bg-gray-800 bg-opacity-75 backdrop-blur-md text-white' : 'bg-transparent text-black'
+        scrolled || isOpen
+          ? 'bg-gray-800 bg-opacity-75 backdrop-blur-md text-white'
+          : 'bg-transparent text-black'
       }`}
     >
       <div className="container mx-auto flex justify-between items-center p-4">
@@ -50,7 +52,7 @@ const Navbar = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
               ></path>
             </svg>
           </button>
@@ -60,27 +62,27 @@ const Navbar = () => {
         <ul
           className={`${
             isOpen ? 'block' : 'hidden'
-          } lg:flex lg:space-x-4 absolute lg:relative w-full lg:w-auto left-0 top-14 lg:top-auto lg:bg-transparent lg:flex-row lg:items-center lg:space-x-4 lg:mt-0 lg:p-0 p-4 space-y-2 lg:space-y-0 ${
-            scrolled ? 'text-white' : 'text-black'
+          } lg:flex lg:space-x-4 absolute lg:relative w-full lg:w-auto left-0 top-14 lg:top-auto lg:bg-transparent bg-gray-800 lg:flex-row lg:items-center lg:space-x-4 lg:mt-0 lg:p-0 p-4 space-y-2 lg:space-y-0 ${
+            scrolled || isOpen ? 'text-white' : 'text-black'
           }`}
         >
           <li>
-            <Link to="/" className={`block ${scrolled ? 'text-white' : 'text-black'} hover:text-gray-400`}>
+            <Link to="/" className={`block ${scrolled || isOpen ? 'text-white' : 'text-black'} hover:text-gray-400`}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className={`block ${scrolled ? 'text-white' : 'text-black'} hover:text-gray-400`}>
+            <Link to="/about" className={`block ${scrolled || isOpen ? 'text-white' : 'text-black'} hover:text-gray-400`}>
               About Me
             </Link>
           </li>
           <li>
-            <Link to="/portfolio" className={`block ${scrolled ? 'text-white' : 'text-black'} hover:text-gray-400`}>
+            <Link to="/portfolio" className={`block ${scrolled || isOpen ? 'text-white' : 'text-black'} hover:text-gray-400`}>
               Projects
             </Link>
           </li>
           <li>
-            <a href="mailto:youremail@gmail.com" className={`block ${scrolled ? 'text-white' : 'text-black'} hover:text-gray-400`}>
+            <a href="mailto:youremail@gmail.com" className={`block ${scrolled || isOpen ? 'text-white' : 'text-black'} hover:text-gray-400`}>
               Contact Me
             </a>
           </li>
